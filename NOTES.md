@@ -5,3 +5,4 @@
 - 2022-01-03: worked on scaffold project structure and option contracts
 - 2022-01-04: worked on scaffold project structure and option contracts
 - 2022-01-05: worked on scaffold project structure and option contracts
+- 2022-01-06: worked on scaffold project structure and option contracts
