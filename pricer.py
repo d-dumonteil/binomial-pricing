@@ -5,3 +5,4 @@ American exercise, continuous dividend yields, Greeks by finite
 differences, and a convergence study against Black-Scholes.
 
 CLI usage:
+    python pricer.py --spot 100 --strike 100 --maturity 1.0 \
