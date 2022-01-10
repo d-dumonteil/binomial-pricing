@@ -9,3 +9,4 @@
 - 2022-01-07: worked on scaffold project structure and option contracts
 - 2022-01-08: worked on scaffold project structure and option contracts
 - 2022-01-09: worked on scaffold project structure and option contracts
+- 2022-01-10: worked on scaffold project structure and option contracts

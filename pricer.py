@@ -6,3 +6,4 @@ differences, and a convergence study against Black-Scholes.
 
 CLI usage:
     python pricer.py --spot 100 --strike 100 --maturity 1.0 \
+        --volatility 0.2 --rate 0.03 --steps 500
