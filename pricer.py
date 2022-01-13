@@ -9,3 +9,4 @@ CLI usage:
         --volatility 0.2 --rate 0.03 --steps 500
 Internal checks:
     python pricer.py --check
+"""
