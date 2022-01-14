@@ -10,3 +10,4 @@ CLI usage:
 Internal checks:
     python pricer.py --check
 """
+from __future__ import annotations
