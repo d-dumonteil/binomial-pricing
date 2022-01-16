@@ -15,3 +15,4 @@
 - 2022-01-13: worked on scaffold project structure and option contracts
 - 2022-01-14: worked on scaffold project structure and option contracts
 - 2022-01-15: worked on scaffold project structure and option contracts
+- 2022-01-16: worked on scaffold project structure and option contracts
