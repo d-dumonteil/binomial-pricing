@@ -17,3 +17,4 @@ import math
 from dataclasses import dataclass, replace
 from typing import Literal
 
+OptionType = Literal["call", "put"]
