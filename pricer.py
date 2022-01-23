@@ -19,3 +19,4 @@ from typing import Literal
 
 OptionType = Literal["call", "put"]
 Exercise = Literal["european", "american"]
+
