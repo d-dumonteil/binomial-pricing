@@ -21,3 +21,4 @@ OptionType = Literal["call", "put"]
 Exercise = Literal["european", "american"]
 
 
+@dataclass(frozen=True)
