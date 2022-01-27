@@ -23,3 +23,4 @@ Exercise = Literal["european", "american"]
 
 @dataclass(frozen=True)
 class OptionContract:
+    """Vanilla option specification.
