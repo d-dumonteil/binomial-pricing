@@ -27,3 +27,4 @@ class OptionContract:
 
     spot and strike in currency units, maturity in years,
     volatility annualised, rate and dividend continuously
+    compounded.
