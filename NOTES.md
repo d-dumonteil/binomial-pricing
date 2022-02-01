@@ -31,3 +31,4 @@
 - 2022-01-29: worked on scaffold project structure and option contracts
 - 2022-01-30: worked on scaffold project structure and option contracts
 - 2022-01-31: worked on scaffold project structure and option contracts
+- 2022-02-01: worked on single-period model and payoff definitions
