@@ -29,3 +29,4 @@ class OptionContract:
     volatility annualised, rate and dividend continuously
     compounded.
     """
+
