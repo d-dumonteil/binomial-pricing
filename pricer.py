@@ -30,3 +30,4 @@ class OptionContract:
     compounded.
     """
 
+    spot: float
