@@ -31,3 +31,4 @@ class OptionContract:
     """
 
     spot: float
+    strike: float
