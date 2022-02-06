@@ -32,3 +32,4 @@ class OptionContract:
 
     spot: float
     strike: float
+    maturity: float
