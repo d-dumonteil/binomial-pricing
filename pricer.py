@@ -34,3 +34,4 @@ class OptionContract:
     strike: float
     maturity: float
     volatility: float
+    rate: float = 0.0
