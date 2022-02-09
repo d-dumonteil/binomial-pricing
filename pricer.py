@@ -35,3 +35,4 @@ class OptionContract:
     maturity: float
     volatility: float
     rate: float = 0.0
+    dividend: float = 0.0
