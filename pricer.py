@@ -38,3 +38,4 @@ class OptionContract:
     dividend: float = 0.0
     option_type: OptionType = "call"
     exercise: Exercise = "european"
+
