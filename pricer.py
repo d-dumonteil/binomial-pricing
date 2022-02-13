@@ -39,3 +39,4 @@ class OptionContract:
     option_type: OptionType = "call"
     exercise: Exercise = "european"
 
+    def validate(self) -> None:
