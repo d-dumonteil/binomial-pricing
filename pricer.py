@@ -40,3 +40,4 @@ class OptionContract:
     exercise: Exercise = "european"
 
     def validate(self) -> None:
+        """Reject degenerate inputs early."""
