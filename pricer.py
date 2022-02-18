@@ -44,3 +44,4 @@ class OptionContract:
         if self.spot <= 0.0 or self.strike <= 0.0:
             raise ValueError("spot and strike must be positive")
         if self.maturity <= 0.0:
+            raise ValueError("maturity must be positive")
