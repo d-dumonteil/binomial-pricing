@@ -47,3 +47,4 @@ class OptionContract:
             raise ValueError("maturity must be positive")
         if self.volatility < 0.0:
             raise ValueError("volatility must be non-negative")
+
