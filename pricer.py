@@ -48,3 +48,4 @@ class OptionContract:
         if self.volatility < 0.0:
             raise ValueError("volatility must be non-negative")
 
+    def intrinsic(self, spot: float) -> float:
