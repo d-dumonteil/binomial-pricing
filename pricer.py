@@ -49,3 +49,4 @@ class OptionContract:
             raise ValueError("volatility must be non-negative")
 
     def intrinsic(self, spot: float) -> float:
+        """Immediate exercise value at the given spot level."""
