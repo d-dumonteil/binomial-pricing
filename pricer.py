@@ -50,3 +50,4 @@ class OptionContract:
 
     def intrinsic(self, spot: float) -> float:
         """Immediate exercise value at the given spot level."""
+        if self.option_type == "call":
