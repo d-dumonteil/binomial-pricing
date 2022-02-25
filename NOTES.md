@@ -55,3 +55,4 @@
 - 2022-02-22: worked on single-period model and payoff definitions
 - 2022-02-23: worked on single-period model and payoff definitions
 - 2022-02-24: worked on single-period model and payoff definitions
+- 2022-02-25: worked on single-period model and payoff definitions
