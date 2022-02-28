@@ -54,3 +54,4 @@ class OptionContract:
             return max(spot - self.strike, 0.0)
         return max(self.strike - spot, 0.0)
 
+
