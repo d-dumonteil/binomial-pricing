@@ -55,3 +55,4 @@ class OptionContract:
         return max(self.strike - spot, 0.0)
 
 
+def _single_period(opt: OptionContract, spot: float) -> tuple[float, float, float]:
