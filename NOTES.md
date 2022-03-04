@@ -62,3 +62,4 @@
 - 2022-03-01: worked on single-period model and payoff definitions
 - 2022-03-02: worked on single-period model and payoff definitions
 - 2022-03-03: worked on crr lattice calibration
+- 2022-03-04: worked on crr lattice calibration
