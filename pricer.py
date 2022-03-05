@@ -59,3 +59,4 @@ def _single_period(opt: OptionContract, spot: float) -> tuple[float, float, floa
     """One-step risk-neutral valuation: the base case of the lattice.
 
     Returns (u, d, discounted option price).
+    """
