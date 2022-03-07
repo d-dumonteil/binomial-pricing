@@ -61,3 +61,4 @@ def _single_period(opt: OptionContract, spot: float) -> tuple[float, float, floa
     Returns (u, d, discounted option price).
     """
     growth = math.exp((opt.rate - opt.dividend) * opt.maturity)
+    u = math.exp(opt.volatility * math.sqrt(opt.maturity))
