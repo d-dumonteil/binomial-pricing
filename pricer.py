@@ -64,3 +64,4 @@ def _single_period(opt: OptionContract, spot: float) -> tuple[float, float, floa
     u = math.exp(opt.volatility * math.sqrt(opt.maturity))
     d = 1.0 / u
     p = (growth - d) / (u - d)
+    if not 0.0 <= p <= 1.0:

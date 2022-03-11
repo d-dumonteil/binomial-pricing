@@ -69,3 +69,4 @@
 - 2022-03-08: worked on crr lattice calibration
 - 2022-03-09: worked on crr lattice calibration
 - 2022-03-10: worked on crr lattice calibration
+- 2022-03-11: worked on crr lattice calibration
