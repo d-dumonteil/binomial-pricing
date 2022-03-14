@@ -67,3 +67,4 @@ def _single_period(opt: OptionContract, spot: float) -> tuple[float, float, floa
     if not 0.0 <= p <= 1.0:
         raise ValueError("risk-neutral probability outside [0, 1]")
     disc = math.exp(-opt.rate * opt.maturity)
+    price = disc * (
