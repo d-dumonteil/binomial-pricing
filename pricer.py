@@ -71,3 +71,4 @@ def _single_period(opt: OptionContract, spot: float) -> tuple[float, float, floa
         p * opt.intrinsic(spot * u) + (1.0 - p) * opt.intrinsic(spot * d)
     )
     return u, d, price
+
