@@ -72,3 +72,4 @@ def _single_period(opt: OptionContract, spot: float) -> tuple[float, float, floa
     )
     return u, d, price
 
+
