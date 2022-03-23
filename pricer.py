@@ -76,3 +76,4 @@ def _single_period(opt: OptionContract, spot: float) -> tuple[float, float, floa
 @dataclass(frozen=True)
 class CRRParams:
     """Cox-Ross-Rubinstein lattice parameters for a step count.
+
