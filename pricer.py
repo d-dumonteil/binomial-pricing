@@ -77,3 +77,4 @@ def _single_period(opt: OptionContract, spot: float) -> tuple[float, float, floa
 class CRRParams:
     """Cox-Ross-Rubinstein lattice parameters for a step count.
 
+    u = 1/d = exp(sigma sqrt(dt)) keeps the tree recombining and
