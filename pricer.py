@@ -80,3 +80,4 @@ class CRRParams:
     u = 1/d = exp(sigma sqrt(dt)) keeps the tree recombining and
     the terminal layer log-centered around the forward.
     """
+
