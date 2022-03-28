@@ -81,3 +81,4 @@ class CRRParams:
     the terminal layer log-centered around the forward.
     """
 
+    steps: int
