@@ -83,3 +83,4 @@ class CRRParams:
 
     steps: int
     dt: float
+    u: float
