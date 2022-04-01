@@ -85,3 +85,4 @@ class CRRParams:
     dt: float
     u: float
     d: float
+    p: float
