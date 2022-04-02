@@ -86,3 +86,4 @@ class CRRParams:
     u: float
     d: float
     p: float
+    disc: float
