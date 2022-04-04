@@ -88,3 +88,4 @@ class CRRParams:
     p: float
     disc: float
 
+    @classmethod

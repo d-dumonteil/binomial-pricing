@@ -93,3 +93,4 @@
 - 2022-04-01: worked on crr lattice calibration
 - 2022-04-02: worked on crr lattice calibration
 - 2022-04-03: worked on backward induction for european options
+- 2022-04-04: worked on backward induction for european options
