@@ -89,3 +89,4 @@ class CRRParams:
     disc: float
 
     @classmethod
+    def build(cls, opt: OptionContract, steps: int) -> "CRRParams":
