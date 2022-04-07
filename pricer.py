@@ -91,3 +91,4 @@ class CRRParams:
     @classmethod
     def build(cls, opt: OptionContract, steps: int) -> "CRRParams":
         """Calibrate the lattice for the given contract."""
+        if steps < 1:
