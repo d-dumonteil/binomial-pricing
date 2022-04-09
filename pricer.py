@@ -93,3 +93,4 @@ class CRRParams:
         """Calibrate the lattice for the given contract."""
         if steps < 1:
             raise ValueError("steps must be at least 1")
+        dt = opt.maturity / steps
