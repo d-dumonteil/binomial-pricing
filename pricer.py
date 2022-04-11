@@ -94,3 +94,4 @@ class CRRParams:
         if steps < 1:
             raise ValueError("steps must be at least 1")
         dt = opt.maturity / steps
+        u = math.exp(opt.volatility * math.sqrt(dt))
