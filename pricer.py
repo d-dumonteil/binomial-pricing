@@ -97,3 +97,4 @@ class CRRParams:
         u = math.exp(opt.volatility * math.sqrt(dt))
         d = 1.0 / u
         growth = math.exp((opt.rate - opt.dividend) * dt)
+        p = (growth - d) / (u - d)
