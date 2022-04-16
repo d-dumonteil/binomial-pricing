@@ -105,3 +105,4 @@
 - 2022-04-13: worked on backward induction for european options
 - 2022-04-14: worked on backward induction for european options
 - 2022-04-15: worked on backward induction for european options
+- 2022-04-16: worked on backward induction for european options

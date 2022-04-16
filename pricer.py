@@ -99,3 +99,4 @@ class CRRParams:
         growth = math.exp((opt.rate - opt.dividend) * dt)
         p = (growth - d) / (u - d)
         if not 0.0 < p < 1.0:
+            raise ValueError("arbitrage condition violated for these inputs")
