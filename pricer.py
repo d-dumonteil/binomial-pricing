@@ -100,3 +100,4 @@ class CRRParams:
         p = (growth - d) / (u - d)
         if not 0.0 < p < 1.0:
             raise ValueError("arbitrage condition violated for these inputs")
+        disc = math.exp(-opt.rate * dt)
