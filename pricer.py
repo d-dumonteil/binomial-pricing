@@ -102,3 +102,4 @@ class CRRParams:
             raise ValueError("arbitrage condition violated for these inputs")
         disc = math.exp(-opt.rate * dt)
         return cls(steps, dt, u, d, p, disc)
+
