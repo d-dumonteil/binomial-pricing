@@ -103,3 +103,4 @@ class CRRParams:
         disc = math.exp(-opt.rate * dt)
         return cls(steps, dt, u, d, p, disc)
 
+
