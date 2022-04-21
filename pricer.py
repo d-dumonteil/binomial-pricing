@@ -104,3 +104,4 @@ class CRRParams:
         return cls(steps, dt, u, d, p, disc)
 
 
+def _terminal_values(opt: OptionContract, par: CRRParams) -> list[float]:
