@@ -106,3 +106,4 @@ class CRRParams:
 
 def _terminal_values(opt: OptionContract, par: CRRParams) -> list[float]:
     """Terminal node spots S0 u^(n-j) d^j with their payoffs."""
+    return [
