@@ -108,3 +108,4 @@ def _terminal_values(opt: OptionContract, par: CRRParams) -> list[float]:
     """Terminal node spots S0 u^(n-j) d^j with their payoffs."""
     return [
         opt.intrinsic(opt.spot * (par.u ** (par.steps - j)) * (par.d ** j))
+        for j in range(par.steps + 1)
