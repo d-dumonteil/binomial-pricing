@@ -110,3 +110,4 @@ def _terminal_values(opt: OptionContract, par: CRRParams) -> list[float]:
         opt.intrinsic(opt.spot * (par.u ** (par.steps - j)) * (par.d ** j))
         for j in range(par.steps + 1)
     ]
+
