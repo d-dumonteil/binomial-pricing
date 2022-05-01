@@ -114,3 +114,4 @@ def _terminal_values(opt: OptionContract, par: CRRParams) -> list[float]:
 
 def price_european(opt: OptionContract, par: CRRParams) -> float:
     """Backward induction on the terminal payoff vector.
+
