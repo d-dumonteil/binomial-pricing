@@ -122,3 +122,4 @@
 - 2022-04-30: worked on backward induction for european options
 - 2022-05-01: worked on backward induction for european options
 - 2022-05-02: worked on backward induction for european options
+- 2022-05-03: worked on american early exercise rule

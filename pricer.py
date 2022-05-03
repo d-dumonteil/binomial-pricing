@@ -116,3 +116,4 @@ def price_european(opt: OptionContract, par: CRRParams) -> float:
     """Backward induction on the terminal payoff vector.
 
     O(n) space, one convex combination per parent node.
+    """
