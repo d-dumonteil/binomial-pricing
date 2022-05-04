@@ -117,3 +117,4 @@ def price_european(opt: OptionContract, par: CRRParams) -> float:
 
     O(n) space, one convex combination per parent node.
     """
+    values = _terminal_values(opt, par)
