@@ -119,3 +119,4 @@ def price_european(opt: OptionContract, par: CRRParams) -> float:
     """
     values = _terminal_values(opt, par)
     q = 1.0 - par.p
+    for _ in range(par.steps):
