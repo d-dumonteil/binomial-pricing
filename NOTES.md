@@ -131,3 +131,4 @@
 - 2022-05-09: worked on american early exercise rule
 - 2022-05-10: worked on american early exercise rule
 - 2022-05-11: worked on american early exercise rule
+- 2022-05-12: worked on american early exercise rule
