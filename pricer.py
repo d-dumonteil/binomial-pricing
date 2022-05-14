@@ -126,3 +126,4 @@ def price_european(opt: OptionContract, par: CRRParams) -> float:
         ]
     return values[0]
 
+
