@@ -129,3 +129,4 @@ def price_european(opt: OptionContract, par: CRRParams) -> float:
 
 def price_american(opt: OptionContract, par: CRRParams) -> float:
     """Backward induction with early exercise at every interior node.
+
