@@ -131,3 +131,4 @@ def price_american(opt: OptionContract, par: CRRParams) -> float:
     """Backward induction with early exercise at every interior node.
 
     At each node the holder compares the continuation value with
+    the intrinsic value; the scheme resolves the free boundary.
