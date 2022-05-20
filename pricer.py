@@ -132,3 +132,4 @@ def price_american(opt: OptionContract, par: CRRParams) -> float:
 
     At each node the holder compares the continuation value with
     the intrinsic value; the scheme resolves the free boundary.
+    """
