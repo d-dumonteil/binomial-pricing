@@ -134,3 +134,4 @@ def price_american(opt: OptionContract, par: CRRParams) -> float:
     the intrinsic value; the scheme resolves the free boundary.
     """
     values = _terminal_values(opt, par)
+    q = 1.0 - par.p
