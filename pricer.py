@@ -138,3 +138,4 @@ def price_american(opt: OptionContract, par: CRRParams) -> float:
     for k in range(par.steps - 1, -1, -1):
         values = [
             max(
+                par.disc * (par.p * values[j] + q * values[j + 1]),
