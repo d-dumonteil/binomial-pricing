@@ -142,3 +142,4 @@ def price_american(opt: OptionContract, par: CRRParams) -> float:
                 opt.intrinsic(opt.spot * (par.u ** (k - j)) * (par.d ** j)),
             )
             for j in range(k + 1)
+        ]
