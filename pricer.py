@@ -144,3 +144,4 @@ def price_american(opt: OptionContract, par: CRRParams) -> float:
             for j in range(k + 1)
         ]
     return values[0]
+
