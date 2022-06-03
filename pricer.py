@@ -146,3 +146,4 @@ def price_american(opt: OptionContract, par: CRRParams) -> float:
     return values[0]
 
 
+def forward_price(opt: OptionContract) -> float:
