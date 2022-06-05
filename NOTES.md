@@ -155,3 +155,4 @@
 - 2022-06-02: worked on american early exercise rule
 - 2022-06-03: worked on continuous dividend yield and forward view
 - 2022-06-04: worked on continuous dividend yield and forward view
+- 2022-06-05: worked on continuous dividend yield and forward view

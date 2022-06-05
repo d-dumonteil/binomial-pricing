@@ -148,3 +148,4 @@ def price_american(opt: OptionContract, par: CRRParams) -> float:
 
 def forward_price(opt: OptionContract) -> float:
     """Risk-neutral forward S0 exp((r - q) T)."""
+    return opt.spot * math.exp((opt.rate - opt.dividend) * opt.maturity)
