@@ -151,3 +151,4 @@ def forward_price(opt: OptionContract) -> float:
     return opt.spot * math.exp((opt.rate - opt.dividend) * opt.maturity)
 
 
+def price(opt: OptionContract, steps: int) -> float:
