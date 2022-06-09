@@ -152,3 +152,4 @@ def forward_price(opt: OptionContract) -> float:
 
 
 def price(opt: OptionContract, steps: int) -> float:
+    """Dispatcher honouring the exercise style."""
