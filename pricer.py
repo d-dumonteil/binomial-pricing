@@ -155,3 +155,4 @@ def price(opt: OptionContract, steps: int) -> float:
     """Dispatcher honouring the exercise style."""
     opt = replace(opt, dividend=max(opt.dividend, 0.0))
     par = CRRParams.build(opt, steps)
+    if opt.exercise == "american":
