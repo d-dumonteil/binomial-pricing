@@ -156,3 +156,4 @@ def price(opt: OptionContract, steps: int) -> float:
     opt = replace(opt, dividend=max(opt.dividend, 0.0))
     par = CRRParams.build(opt, steps)
     if opt.exercise == "american":
+        return price_american(opt, par)
