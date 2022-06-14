@@ -157,3 +157,4 @@ def price(opt: OptionContract, steps: int) -> float:
     par = CRRParams.build(opt, steps)
     if opt.exercise == "american":
         return price_american(opt, par)
+    return price_european(opt, par)
