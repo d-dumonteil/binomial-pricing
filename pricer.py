@@ -159,3 +159,4 @@ def price(opt: OptionContract, steps: int) -> float:
         return price_american(opt, par)
     return price_european(opt, par)
 
+
