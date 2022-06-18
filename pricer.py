@@ -160,3 +160,4 @@ def price(opt: OptionContract, steps: int) -> float:
     return price_european(opt, par)
 
 
+def parity_gap(opt: OptionContract, steps: int) -> float:
