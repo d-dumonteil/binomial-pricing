@@ -161,3 +161,4 @@ def price(opt: OptionContract, steps: int) -> float:
 
 
 def parity_gap(opt: OptionContract, steps: int) -> float:
+    """|C - P - (S e^{-qT} - K e^{-rT})| for a European pair."""
