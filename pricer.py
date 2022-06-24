@@ -166,3 +166,4 @@ def parity_gap(opt: OptionContract, steps: int) -> float:
     put = replace(opt, option_type="put", exercise="european")
     lhs = price(call, steps) - price(put, steps)
     rhs = opt.spot * math.exp(-opt.dividend * opt.maturity)
+    rhs -= opt.strike * math.exp(-opt.rate * opt.maturity)
