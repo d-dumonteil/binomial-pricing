@@ -169,3 +169,4 @@ def parity_gap(opt: OptionContract, steps: int) -> float:
     rhs -= opt.strike * math.exp(-opt.rate * opt.maturity)
     return abs(lhs - rhs)
 
+
