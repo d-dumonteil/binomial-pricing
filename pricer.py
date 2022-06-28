@@ -170,3 +170,4 @@ def parity_gap(opt: OptionContract, steps: int) -> float:
     return abs(lhs - rhs)
 
 
+def sanity_checks(opt: OptionContract, steps: int) -> bool:
