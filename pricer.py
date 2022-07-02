@@ -174,3 +174,4 @@ def sanity_checks(opt: OptionContract, steps: int) -> bool:
     """Cheap invariants: dominance relations and parity."""
     call = replace(opt, option_type="call")
     put = replace(opt, option_type="put")
+    if price(replace(call, exercise="american"), steps) < price(
