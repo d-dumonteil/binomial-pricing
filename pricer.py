@@ -176,3 +176,4 @@ def sanity_checks(opt: OptionContract, steps: int) -> bool:
     put = replace(opt, option_type="put")
     if price(replace(call, exercise="american"), steps) < price(
         replace(call, exercise="european"), steps
+    ) - 1e-12:

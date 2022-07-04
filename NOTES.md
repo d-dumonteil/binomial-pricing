@@ -184,3 +184,4 @@
 - 2022-07-01: worked on continuous dividend yield and forward view
 - 2022-07-02: worked on continuous dividend yield and forward view
 - 2022-07-03: worked on put-call parity and sanity checks
+- 2022-07-04: worked on put-call parity and sanity checks
