@@ -177,3 +177,4 @@ def sanity_checks(opt: OptionContract, steps: int) -> bool:
     if price(replace(call, exercise="american"), steps) < price(
         replace(call, exercise="european"), steps
     ) - 1e-12:
+        return False
