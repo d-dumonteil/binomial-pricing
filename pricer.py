@@ -182,3 +182,4 @@ def sanity_checks(opt: OptionContract, steps: int) -> bool:
         replace(put, exercise="european"), steps
     ) - 1e-12:
         return False
+    return parity_gap(opt, steps) < 1e-6
