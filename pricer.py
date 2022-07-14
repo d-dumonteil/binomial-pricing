@@ -186,3 +186,4 @@ def sanity_checks(opt: OptionContract, steps: int) -> bool:
 
 
 def _spot_bump_prices(opt: OptionContract, steps: int, rel: float = 1e-4):
+    """Prices at S0-h, S0, S0+h for central differences."""
