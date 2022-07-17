@@ -189,3 +189,4 @@ def _spot_bump_prices(opt: OptionContract, steps: int, rel: float = 1e-4):
     """Prices at S0-h, S0, S0+h for central differences."""
     h = rel * opt.spot
     up = price(replace(opt, spot=opt.spot + h), steps)
+    mid = price(opt, steps)
