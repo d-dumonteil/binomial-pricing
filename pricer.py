@@ -192,3 +192,4 @@ def _spot_bump_prices(opt: OptionContract, steps: int, rel: float = 1e-4):
     mid = price(opt, steps)
     down = price(replace(opt, spot=opt.spot - h), steps)
     return down, mid, up, h
+
