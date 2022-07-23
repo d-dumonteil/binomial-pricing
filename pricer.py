@@ -194,3 +194,4 @@ def _spot_bump_prices(opt: OptionContract, steps: int, rel: float = 1e-4):
     return down, mid, up, h
 
 
+def delta(opt: OptionContract, steps: int, rel: float = 1e-4) -> float:
