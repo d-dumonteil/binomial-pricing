@@ -204,3 +204,4 @@
 - 2022-07-21: worked on put-call parity and sanity checks
 - 2022-07-22: worked on put-call parity and sanity checks
 - 2022-07-23: worked on put-call parity and sanity checks
+- 2022-07-24: worked on put-call parity and sanity checks

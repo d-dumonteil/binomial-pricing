@@ -195,3 +195,4 @@ def _spot_bump_prices(opt: OptionContract, steps: int, rel: float = 1e-4):
 
 
 def delta(opt: OptionContract, steps: int, rel: float = 1e-4) -> float:
+    """Central finite difference: dV/dS."""
