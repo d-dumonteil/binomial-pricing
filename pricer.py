@@ -200,3 +200,4 @@ def delta(opt: OptionContract, steps: int, rel: float = 1e-4) -> float:
     return (up - down) / (2.0 * h)
 
 
+def gamma(opt: OptionContract, steps: int, rel: float = 1e-4) -> float:
