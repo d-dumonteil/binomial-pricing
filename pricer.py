@@ -201,3 +201,4 @@ def delta(opt: OptionContract, steps: int, rel: float = 1e-4) -> float:
 
 
 def gamma(opt: OptionContract, steps: int, rel: float = 1e-4) -> float:
+    """Central finite difference: d2V/dS2."""
