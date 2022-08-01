@@ -203,3 +203,4 @@ def delta(opt: OptionContract, steps: int, rel: float = 1e-4) -> float:
 def gamma(opt: OptionContract, steps: int, rel: float = 1e-4) -> float:
     """Central finite difference: d2V/dS2."""
     down, mid, up, h = _spot_bump_prices(opt, steps, rel)
+    return (up - 2.0 * mid + down) / (h * h)
