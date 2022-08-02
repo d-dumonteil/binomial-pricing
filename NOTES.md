@@ -213,3 +213,4 @@
 - 2022-07-30: worked on put-call parity and sanity checks
 - 2022-07-31: worked on put-call parity and sanity checks
 - 2022-08-01: worked on put-call parity and sanity checks
+- 2022-08-02: worked on finite-difference delta and gamma
