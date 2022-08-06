@@ -208,3 +208,4 @@ def gamma(opt: OptionContract, steps: int, rel: float = 1e-4) -> float:
 
 def theta(opt: OptionContract, steps: int, day: float = 1.0 / 365.0) -> float:
     """Calendar-day theta: backward difference on maturity."""
+    if opt.maturity <= day:
