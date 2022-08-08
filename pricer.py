@@ -210,3 +210,4 @@ def theta(opt: OptionContract, steps: int, day: float = 1.0 / 365.0) -> float:
     """Calendar-day theta: backward difference on maturity."""
     if opt.maturity <= day:
         raise ValueError("maturity too short for a theta difference")
+    shorter = price(replace(opt, maturity=opt.maturity - day), steps)
