@@ -214,3 +214,4 @@ def theta(opt: OptionContract, steps: int, day: float = 1.0 / 365.0) -> float:
     return (shorter - price(opt, steps)) / day
 
 
+def vega(opt: OptionContract, steps: int, dvol: float = 1e-4) -> float:
