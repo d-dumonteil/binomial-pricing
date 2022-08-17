@@ -219,3 +219,4 @@ def vega(opt: OptionContract, steps: int, dvol: float = 1e-4) -> float:
     up = price(replace(opt, volatility=opt.volatility + dvol), steps)
     down = price(
         replace(opt, volatility=max(opt.volatility - dvol, 1e-8)), steps
+    )
