@@ -223,3 +223,4 @@ def vega(opt: OptionContract, steps: int, dvol: float = 1e-4) -> float:
     return (up - down) / (2.0 * dvol)
 
 
+def rho(opt: OptionContract, steps: int, dr: float = 1e-4) -> float:
