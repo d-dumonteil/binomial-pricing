@@ -225,3 +225,4 @@ def vega(opt: OptionContract, steps: int, dvol: float = 1e-4) -> float:
 
 def rho(opt: OptionContract, steps: int, dr: float = 1e-4) -> float:
     """Central difference in the risk-free rate."""
+    up = price(replace(opt, rate=opt.rate + dr), steps)
