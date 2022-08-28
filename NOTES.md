@@ -239,3 +239,4 @@
 - 2022-08-25: worked on finite-difference delta and gamma
 - 2022-08-26: worked on finite-difference delta and gamma
 - 2022-08-27: worked on finite-difference delta and gamma
+- 2022-08-28: worked on finite-difference delta and gamma

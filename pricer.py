@@ -229,3 +229,4 @@ def rho(opt: OptionContract, steps: int, dr: float = 1e-4) -> float:
     down = price(replace(opt, rate=opt.rate - dr), steps)
     return (up - down) / (2.0 * dr)
 
+
