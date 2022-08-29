@@ -230,3 +230,4 @@ def rho(opt: OptionContract, steps: int, dr: float = 1e-4) -> float:
     return (up - down) / (2.0 * dr)
 
 
+def greek_report(opt: OptionContract, steps: int) -> dict[str, float]:
