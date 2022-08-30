@@ -231,3 +231,4 @@ def rho(opt: OptionContract, steps: int, dr: float = 1e-4) -> float:
 
 
 def greek_report(opt: OptionContract, steps: int) -> dict[str, float]:
+    """Full Greek vector for reporting."""
