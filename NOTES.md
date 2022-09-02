@@ -244,3 +244,4 @@
 - 2022-08-30: worked on finite-difference delta and gamma
 - 2022-08-31: worked on finite-difference delta and gamma
 - 2022-09-01: worked on finite-difference delta and gamma
+- 2022-09-02: worked on theta, vega and rho

@@ -234,3 +234,4 @@ def greek_report(opt: OptionContract, steps: int) -> dict[str, float]:
     """Full Greek vector for reporting."""
     return {
         "price": price(opt, steps),
+        "delta": delta(opt, steps),
