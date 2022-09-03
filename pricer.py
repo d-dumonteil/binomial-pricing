@@ -235,3 +235,4 @@ def greek_report(opt: OptionContract, steps: int) -> dict[str, float]:
     return {
         "price": price(opt, steps),
         "delta": delta(opt, steps),
+        "gamma": gamma(opt, steps),
