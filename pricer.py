@@ -239,3 +239,4 @@ def greek_report(opt: OptionContract, steps: int) -> dict[str, float]:
         "theta": theta(opt, steps),
         "vega": vega(opt, steps),
         "rho": rho(opt, steps),
+    }
