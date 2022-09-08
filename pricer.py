@@ -240,3 +240,4 @@ def greek_report(opt: OptionContract, steps: int) -> dict[str, float]:
         "vega": vega(opt, steps),
         "rho": rho(opt, steps),
     }
+
