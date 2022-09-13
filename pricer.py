@@ -245,3 +245,4 @@ def greek_report(opt: OptionContract, steps: int) -> dict[str, float]:
 def _norm_cdf(x: float) -> float:
     """Standard normal CDF via erf."""
     return 0.5 * (1.0 + math.erf(x / math.sqrt(2.0)))
+
