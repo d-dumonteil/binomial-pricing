@@ -258,3 +258,4 @@
 - 2022-09-13: worked on theta, vega and rho
 - 2022-09-14: worked on theta, vega and rho
 - 2022-09-15: worked on theta, vega and rho
+- 2022-09-16: worked on theta, vega and rho
