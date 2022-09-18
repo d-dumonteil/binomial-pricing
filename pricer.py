@@ -250,3 +250,4 @@ def _norm_cdf(x: float) -> float:
 def black_scholes(opt: OptionContract) -> float:
     """Closed-form European price; the convergence benchmark."""
     s, k, t = opt.spot, opt.strike, opt.maturity
+    v, r, q = opt.volatility, opt.rate, opt.dividend
