@@ -252,3 +252,4 @@ def black_scholes(opt: OptionContract) -> float:
     s, k, t = opt.spot, opt.strike, opt.maturity
     v, r, q = opt.volatility, opt.rate, opt.dividend
     sq = v * math.sqrt(t)
+    d1 = (math.log(s / k) + (r - q + 0.5 * v * v) * t) / sq
