@@ -254,3 +254,4 @@ def black_scholes(opt: OptionContract) -> float:
     sq = v * math.sqrt(t)
     d1 = (math.log(s / k) + (r - q + 0.5 * v * v) * t) / sq
     d2 = d1 - sq
+    if opt.option_type == "call":
