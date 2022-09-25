@@ -256,3 +256,4 @@ def black_scholes(opt: OptionContract) -> float:
     d2 = d1 - sq
     if opt.option_type == "call":
         return (
+            s * math.exp(-q * t) * _norm_cdf(d1)
