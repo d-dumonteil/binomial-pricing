@@ -260,3 +260,4 @@ def black_scholes(opt: OptionContract) -> float:
             - k * math.exp(-r * t) * _norm_cdf(d2)
         )
     return (
+        k * math.exp(-r * t) * _norm_cdf(-d2)
