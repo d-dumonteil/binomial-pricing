@@ -274,3 +274,4 @@
 - 2022-09-29: worked on theta, vega and rho
 - 2022-09-30: worked on theta, vega and rho
 - 2022-10-01: worked on theta, vega and rho
+- 2022-10-02: worked on convergence study against black-scholes
