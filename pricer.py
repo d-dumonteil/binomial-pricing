@@ -265,3 +265,4 @@ def black_scholes(opt: OptionContract) -> float:
     )
 
 
+def convergence_rows(
