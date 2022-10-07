@@ -268,3 +268,4 @@ def black_scholes(opt: OptionContract) -> float:
 def convergence_rows(
     opt: OptionContract,
     steps_list: tuple[int, ...] = (10, 20, 40, 80, 160, 320, 640, 1280),
+) -> list[tuple[int, float, float]]:
