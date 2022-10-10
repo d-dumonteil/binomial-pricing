@@ -271,3 +271,4 @@ def convergence_rows(
 ) -> list[tuple[int, float, float]]:
     """Absolute error against Black-Scholes per step count."""
     ref = black_scholes(opt)
+    return [(n, price(opt, n), abs(price(opt, n) - ref)) for n in steps_list]
