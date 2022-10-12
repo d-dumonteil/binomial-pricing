@@ -273,3 +273,4 @@ def convergence_rows(
     ref = black_scholes(opt)
     return [(n, price(opt, n), abs(price(opt, n) - ref)) for n in steps_list]
 
+
