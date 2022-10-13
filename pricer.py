@@ -274,3 +274,4 @@ def convergence_rows(
     return [(n, price(opt, n), abs(price(opt, n) - ref)) for n in steps_list]
 
 
+def run_self_checks() -> None:
