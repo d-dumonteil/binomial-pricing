@@ -275,3 +275,4 @@ def convergence_rows(
 
 
 def run_self_checks() -> None:
+    """In-memory test battery for the CLI flag --check."""
