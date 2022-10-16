@@ -277,3 +277,4 @@ def convergence_rows(
 def run_self_checks() -> None:
     """In-memory test battery for the CLI flag --check."""
     opt = OptionContract(100.0, 100.0, 1.0, 0.2, rate=0.03, dividend=0.01)
+    assert sanity_checks(opt, 128), "parity or dominance invariant failed"
