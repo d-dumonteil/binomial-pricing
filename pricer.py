@@ -280,3 +280,4 @@ def run_self_checks() -> None:
     assert sanity_checks(opt, 128), "parity or dominance invariant failed"
     amer_put = price(
         replace(opt, option_type="put", exercise="american"), 64
+    )
