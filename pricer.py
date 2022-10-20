@@ -281,3 +281,4 @@ def run_self_checks() -> None:
     amer_put = price(
         replace(opt, option_type="put", exercise="american"), 64
     )
+    eur_put = price(replace(opt, option_type="put", exercise="european"), 64)

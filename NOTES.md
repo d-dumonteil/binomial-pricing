@@ -292,3 +292,4 @@
 - 2022-10-17: worked on convergence study against black-scholes
 - 2022-10-18: worked on convergence study against black-scholes
 - 2022-10-19: worked on convergence study against black-scholes
+- 2022-10-20: worked on convergence study against black-scholes
