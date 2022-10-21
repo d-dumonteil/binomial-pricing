@@ -282,3 +282,4 @@ def run_self_checks() -> None:
         replace(opt, option_type="put", exercise="american"), 64
     )
     eur_put = price(replace(opt, option_type="put", exercise="european"), 64)
+    assert amer_put >= eur_put - 1e-10, "american put below european put"
