@@ -285,3 +285,4 @@ def run_self_checks() -> None:
     assert amer_put >= eur_put - 1e-10, "american put below european put"
     k_lo = price(replace(opt, strike=90.0), 64)
     k_hi = price(replace(opt, strike=110.0), 64)
+    assert k_lo >= k_hi, "call price not decreasing in strike"
