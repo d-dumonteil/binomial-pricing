@@ -287,3 +287,4 @@ def run_self_checks() -> None:
     k_hi = price(replace(opt, strike=110.0), 64)
     assert k_lo >= k_hi, "call price not decreasing in strike"
     rows = convergence_rows(opt, (64, 256, 1024))
+    assert rows[-1][2] < rows[0][2], "no convergence toward black-scholes"
