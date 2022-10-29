@@ -289,3 +289,4 @@ def run_self_checks() -> None:
     rows = convergence_rows(opt, (64, 256, 1024))
     assert rows[-1][2] < rows[0][2], "no convergence toward black-scholes"
     assert delta(opt, 64) > 0.0 and gamma(opt, 64) > 0.0
+    print("self checks passed")
