@@ -291,3 +291,4 @@ def run_self_checks() -> None:
     assert delta(opt, 64) > 0.0 and gamma(opt, 64) > 0.0
     print("self checks passed")
 
+
