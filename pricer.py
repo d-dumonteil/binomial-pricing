@@ -292,3 +292,4 @@ def run_self_checks() -> None:
     print("self checks passed")
 
 
+def price_european_fast(opt: OptionContract, steps: int) -> float:
