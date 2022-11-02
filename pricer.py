@@ -293,3 +293,4 @@ def run_self_checks() -> None:
 
 
 def price_european_fast(opt: OptionContract, steps: int) -> float:
+    """European price with incremental product updates.
