@@ -306,3 +306,4 @@
 - 2022-10-31: worked on convergence study against black-scholes
 - 2022-11-01: worked on convergence study against black-scholes
 - 2022-11-02: worked on unit and edge-case self checks
+- 2022-11-03: worked on unit and edge-case self checks
