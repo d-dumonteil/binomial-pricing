@@ -296,3 +296,4 @@ def price_european_fast(opt: OptionContract, steps: int) -> float:
     """European price with incremental product updates.
 
     Avoids repeated exponentiation on the terminal layer by
+    stepping spot levels with the constant ratio d/u.
