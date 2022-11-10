@@ -301,3 +301,4 @@ def price_european_fast(opt: OptionContract, steps: int) -> float:
     par = CRRParams.build(opt, steps)
     spot = opt.spot * (par.u ** steps)
     ratio = par.d / par.u
+    values = []
