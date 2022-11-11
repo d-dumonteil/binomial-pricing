@@ -302,3 +302,4 @@ def price_european_fast(opt: OptionContract, steps: int) -> float:
     spot = opt.spot * (par.u ** steps)
     ratio = par.d / par.u
     values = []
+    for _ in range(steps + 1):
