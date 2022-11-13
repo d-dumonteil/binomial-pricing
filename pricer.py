@@ -304,3 +304,4 @@ def price_european_fast(opt: OptionContract, steps: int) -> float:
     values = []
     for _ in range(steps + 1):
         values.append(opt.intrinsic(spot))
+        spot *= ratio
