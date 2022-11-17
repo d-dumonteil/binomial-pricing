@@ -308,3 +308,4 @@ def price_european_fast(opt: OptionContract, steps: int) -> float:
     q = 1.0 - par.p
     for _ in range(steps):
         values = [
+            par.disc * (par.p * values[j] + q * values[j + 1])
