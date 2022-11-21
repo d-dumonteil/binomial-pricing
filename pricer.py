@@ -312,3 +312,4 @@ def price_european_fast(opt: OptionContract, steps: int) -> float:
             for j in range(len(values) - 1)
         ]
     return values[0]
+
