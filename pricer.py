@@ -314,3 +314,4 @@ def price_european_fast(opt: OptionContract, steps: int) -> float:
     return values[0]
 
 
+def main(argv: list[str] | None = None) -> None:
