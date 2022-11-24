@@ -315,3 +315,4 @@ def price_european_fast(opt: OptionContract, steps: int) -> float:
 
 
 def main(argv: list[str] | None = None) -> None:
+    """Command-line entry point."""
