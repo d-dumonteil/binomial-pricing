@@ -316,3 +316,4 @@ def price_european_fast(opt: OptionContract, steps: int) -> float:
 
 def main(argv: list[str] | None = None) -> None:
     """Command-line entry point."""
+    parser = argparse.ArgumentParser(description="Binomial option pricer")
