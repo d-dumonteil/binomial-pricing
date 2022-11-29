@@ -319,3 +319,4 @@ def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="Binomial option pricer")
     a = parser.add_argument
     a("--spot", type=float, required=True)
+    a("--strike", type=float, required=True)
