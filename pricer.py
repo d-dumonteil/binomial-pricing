@@ -320,3 +320,4 @@ def main(argv: list[str] | None = None) -> None:
     a = parser.add_argument
     a("--spot", type=float, required=True)
     a("--strike", type=float, required=True)
+    a("--maturity", type=float, required=True)
