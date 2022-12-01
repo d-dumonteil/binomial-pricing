@@ -321,3 +321,4 @@ def main(argv: list[str] | None = None) -> None:
     a("--spot", type=float, required=True)
     a("--strike", type=float, required=True)
     a("--maturity", type=float, required=True)
+    a("--volatility", type=float, required=True)
