@@ -336,3 +336,4 @@
 - 2022-11-30: worked on unit and edge-case self checks
 - 2022-12-01: worked on unit and edge-case self checks
 - 2022-12-02: worked on performance pass and cli polish
+- 2022-12-03: worked on performance pass and cli polish
