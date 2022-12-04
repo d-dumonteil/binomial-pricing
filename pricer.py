@@ -324,3 +324,4 @@ def main(argv: list[str] | None = None) -> None:
     a("--volatility", type=float, required=True)
     a("--rate", type=float, default=0.0)
     a("--dividend", type=float, default=0.0)
+    a("--steps", type=int, default=256)
