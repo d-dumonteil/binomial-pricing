@@ -325,3 +325,4 @@ def main(argv: list[str] | None = None) -> None:
     a("--rate", type=float, default=0.0)
     a("--dividend", type=float, default=0.0)
     a("--steps", type=int, default=256)
+    a("--put", action="store_true")
