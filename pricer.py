@@ -327,3 +327,4 @@ def main(argv: list[str] | None = None) -> None:
     a("--steps", type=int, default=256)
     a("--put", action="store_true")
     a("--american", action="store_true")
+    a("--check", action="store_true")
