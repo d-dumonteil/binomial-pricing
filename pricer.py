@@ -329,3 +329,4 @@ def main(argv: list[str] | None = None) -> None:
     a("--american", action="store_true")
     a("--check", action="store_true")
     args = parser.parse_args(argv)
+
