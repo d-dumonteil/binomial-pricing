@@ -330,3 +330,4 @@ def main(argv: list[str] | None = None) -> None:
     a("--check", action="store_true")
     args = parser.parse_args(argv)
 
+    if args.check:
