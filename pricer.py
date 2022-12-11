@@ -331,3 +331,4 @@ def main(argv: list[str] | None = None) -> None:
     args = parser.parse_args(argv)
 
     if args.check:
+        run_self_checks()
