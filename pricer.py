@@ -333,3 +333,4 @@ def main(argv: list[str] | None = None) -> None:
     if args.check:
         run_self_checks()
         return
+
