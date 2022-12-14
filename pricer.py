@@ -334,3 +334,4 @@ def main(argv: list[str] | None = None) -> None:
         run_self_checks()
         return
 
+    opt = OptionContract(
