@@ -335,3 +335,4 @@ def main(argv: list[str] | None = None) -> None:
         return
 
     opt = OptionContract(
+        spot=args.spot,
