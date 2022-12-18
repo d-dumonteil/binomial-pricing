@@ -338,3 +338,4 @@ def main(argv: list[str] | None = None) -> None:
         spot=args.spot,
         strike=args.strike,
         maturity=args.maturity,
+        volatility=args.volatility,
