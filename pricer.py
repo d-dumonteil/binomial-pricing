@@ -339,3 +339,4 @@ def main(argv: list[str] | None = None) -> None:
         strike=args.strike,
         maturity=args.maturity,
         volatility=args.volatility,
+        rate=args.rate,
