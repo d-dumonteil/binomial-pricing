@@ -340,3 +340,4 @@ def main(argv: list[str] | None = None) -> None:
         maturity=args.maturity,
         volatility=args.volatility,
         rate=args.rate,
+        dividend=args.dividend,
