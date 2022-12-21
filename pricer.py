@@ -341,3 +341,4 @@ def main(argv: list[str] | None = None) -> None:
         volatility=args.volatility,
         rate=args.rate,
         dividend=args.dividend,
+        option_type="put" if args.put else "call",
