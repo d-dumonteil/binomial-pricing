@@ -343,3 +343,4 @@ def main(argv: list[str] | None = None) -> None:
         dividend=args.dividend,
         option_type="put" if args.put else "call",
         exercise="american" if args.american else "european",
+    )
