@@ -344,3 +344,4 @@ def main(argv: list[str] | None = None) -> None:
         option_type="put" if args.put else "call",
         exercise="american" if args.american else "european",
     )
+    opt.validate()
