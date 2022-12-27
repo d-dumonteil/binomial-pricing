@@ -347,3 +347,4 @@ def main(argv: list[str] | None = None) -> None:
     opt.validate()
     report = greek_report(opt, args.steps)
     for key in ("price", "delta", "gamma", "theta", "vega", "rho"):
+        print(f"{key:>6}: {report[key]:.6f}")
