@@ -350,3 +350,4 @@ def main(argv: list[str] | None = None) -> None:
         print(f"{key:>6}: {report[key]:.6f}")
 
 
+if __name__ == "__main__":
