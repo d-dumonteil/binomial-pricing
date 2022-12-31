@@ -318,10 +318,10 @@ def main(argv: list[str] | None = None) -> None:
     """Command-line entry point."""
     parser = argparse.ArgumentParser(description="Binomial option pricer")
     a = parser.add_argument
-    a("--spot", type=float, required=True)
-    a("--strike", type=float, required=True)
-    a("--maturity", type=float, required=True)
-    a("--volatility", type=float, required=True)
+    a("--spot", type=float, required=False)
+    a("--strike", type=float, required=False)
+    a("--maturity", type=float, required=False)
+    a("--volatility", type=float, required=False)
     a("--rate", type=float, default=0.0)
     a("--dividend", type=float, default=0.0)
     a("--steps", type=int, default=256)
@@ -330,6 +330,9 @@ def main(argv: list[str] | None = None) -> None:
     a("--check", action="store_true")
     args = parser.parse_args(argv)
 
+    needed = (args.spot, args.strike, args.maturity, args.volatility)
+    if not args.check and any(v is None for v in needed):
+        parser.error('--spot, --strike, --maturity and --volatility are required')
     if args.check:
         run_self_checks()
         return
@@ -351,3 +354,4 @@ def main(argv: list[str] | None = None) -> None:
 
 
 if __name__ == "__main__":
+    main()
